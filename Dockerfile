@@ -1,5 +1,5 @@
 FROM       ubuntu
-
+MAINTAINER Joshua Magady "https://github.com/drbothen"
 
 RUN apt-get update
 
