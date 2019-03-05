@@ -1,4 +1,4 @@
-FROM       ubuntu
+FROM       ubuntu:18.04
 MAINTAINER Joshua Magady "https://github.com/drbothen"
 
 RUN apt-get update
