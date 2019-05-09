@@ -5,6 +5,7 @@ RUN apt-get update
 
 RUN apt-get install -y openssh-server
 RUN apt-get install -y nmap
+RUN apt-get install -y ndiff
 RUN mkdir /var/run/sshd
 
 RUN echo 'root:root' |chpasswd
